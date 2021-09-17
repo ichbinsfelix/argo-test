@@ -12,7 +12,7 @@ spec:
   source:
     path: apps/
     repoURL: https://github.com/ichbinsfelix/argo-test.git
-    targetRevision: develop
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
